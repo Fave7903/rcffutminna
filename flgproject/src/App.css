@@ -1,0 +1,33 @@
+.navbar {
+    background-color: #333; /* Dark background color */
+    padding: 10px 0; /* Add some padding */
+}
+
+.nav-list {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center align the list items */
+}
+
+.nav-list li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Add some space between list items */
+}
+
+.nav-list li:last-child {
+    margin-right: 0; /* Remove margin from the last list item */
+}
+
+.nav-list li a {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Adjust font size */
+    padding: 10px 20px; /* Add padding to make clickable area larger */
+    transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+.nav-list li a:hover {
+    background-color: #555; /* Darker background color on hover */
+    border-radius: 5px; /* Add border radius for rounded corners */
+}
